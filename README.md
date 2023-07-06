@@ -13,13 +13,32 @@ TypeScript에대한 전반적인 지식 습득
 
 ### ⚙️ 프로젝트 환경
 
-- **react** 18.2.0
+- **ts-node**
+
+```
+npm i -D ts-node // 개발환경에서만 사용, comfile(build)없이 ts파일 실행
+```
+
+- **nodemon**
+
+```
+npm i nodemon // server auto restart
+```
 
 ### 🗓️ 프로젝트 진행
 
 - 프로젝트 생성 with TypeScript ✅
 
 # Other tips
+
+## ❗️ Create Project
+
+```
+npm init -y
+npm install -D typescript
+
+touch tsconfig.json
+```
 
 ## ❗️ TypeScript
 

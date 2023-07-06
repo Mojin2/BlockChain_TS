@@ -1,0 +1,16 @@
+{
+  // JS로 컴파일하고 싶은 모든 Dir
+  "include": ["src"],
+  "compilerOptions": {
+    // 컴파일된 JS파일이 위치할 Dir
+    "outDir": "build",
+    // 컴파일된 JS의 Version
+    "target": "ES6",
+    // API를 알고 자동완성기능을 제공
+    "lib": ["ES6"],
+    "strict": true,
+    // "allowJs": true,
+    "esModuleInterop": true,
+    "module": "CommonJS"
+  }
+}
